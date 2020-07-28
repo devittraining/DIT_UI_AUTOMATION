@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21759" started-at="2020-04-27T18:52:49Z" finished-at="2020-04-27T18:53:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21759" started-at="2020-04-27T18:52:49Z" finished-at="2020-04-27T18:53:11Z">
+      <class name="com.testing.AppTest">
+        <test-method status="PASS" signature="openBrowserOpenURL()[pri:0, instance:com.testing.AppTest@4de8b406]" name="openBrowserOpenURL" is-config="true" duration-ms="12743" started-at="2020-04-27T14:52:49Z" finished-at="2020-04-27T14:53:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserOpenURL -->
+        <test-method status="PASS" signature="attributeTest()[pri:0, instance:com.testing.AppTest@4de8b406]" name="attributeTest" duration-ms="4626" started-at="2020-04-27T14:53:02Z" finished-at="2020-04-27T14:53:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attributeTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.testing.AppTest@4de8b406]" name="closeBrowser" is-config="true" duration-ms="4387" started-at="2020-04-27T14:53:07Z" finished-at="2020-04-27T14:53:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.testing.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
