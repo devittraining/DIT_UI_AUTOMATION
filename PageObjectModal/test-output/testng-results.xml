@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28627" started-at="2020-04-27T19:10:24Z" finished-at="2020-04-27T19:10:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28627" started-at="2020-04-27T19:10:24Z" finished-at="2020-04-27T19:10:53Z">
+      <class name="com.testing.TestFile">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testing.TestFile@5f2108b5]" name="beforeMethod" is-config="true" duration-ms="9802" started-at="2020-04-27T15:10:24Z" finished-at="2020-04-27T15:10:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="searchCanadaTest()[pri:0, instance:com.testing.TestFile@5f2108b5]" name="searchCanadaTest" duration-ms="4267" started-at="2020-04-27T15:10:34Z" finished-at="2020-04-27T15:10:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCanadaTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testing.TestFile@5f2108b5]" name="afterMethod" is-config="true" duration-ms="977" started-at="2020-04-27T15:10:38Z" finished-at="2020-04-27T15:10:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchCanadaTest status=SUCCESS method=TestFile.searchCanadaTest()[pri:0, instance:com.testing.TestFile@5f2108b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testing.TestFile@5f2108b5]" name="beforeMethod" is-config="true" duration-ms="8375" started-at="2020-04-27T15:10:39Z" finished-at="2020-04-27T15:10:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="searchIndiaTest()[pri:0, instance:com.testing.TestFile@5f2108b5]" name="searchIndiaTest" duration-ms="4255" started-at="2020-04-27T15:10:48Z" finished-at="2020-04-27T15:10:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchIndiaTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testing.TestFile@5f2108b5]" name="afterMethod" is-config="true" duration-ms="942" started-at="2020-04-27T15:10:52Z" finished-at="2020-04-27T15:10:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchIndiaTest status=SUCCESS method=TestFile.searchIndiaTest()[pri:0, instance:com.testing.TestFile@5f2108b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.testing.TestFile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
