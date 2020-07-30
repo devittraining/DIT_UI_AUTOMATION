@@ -80,7 +80,7 @@ public class GoogleSearch {
 	}
 
 	@Then("^I got \"([^\"]*)\" Information$")
-	public void i_got_Information(String countryInfo) throws Exception {
+	public void i_got_Information(String countryInfo) throws Exception  {
 
     	if(driver.getCurrentUrl().contains(countryInfo))
     		System.out.println("search" + countryInfo + "Test - PASS");
