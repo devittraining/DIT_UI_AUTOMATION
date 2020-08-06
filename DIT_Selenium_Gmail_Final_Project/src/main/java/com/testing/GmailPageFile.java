@@ -18,6 +18,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class GmailPageFile extends GmailLocatorsFile implements GmailDataFile{
 
+	
 	public WebDriver driver;
 	
 	public void openBrowser() throws IOException, InterruptedException {
