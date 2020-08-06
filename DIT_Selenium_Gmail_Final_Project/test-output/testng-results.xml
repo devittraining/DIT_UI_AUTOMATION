@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14897" started-at="2020-08-01T02:24:38Z" finished-at="2020-08-01T02:24:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14897" started-at="2020-08-01T02:24:38Z" finished-at="2020-08-01T02:24:53Z">
+      <class name="com.testing.GmailTestFile">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testing.GmailTestFile@490ab905]" name="beforeMethod" is-config="true" duration-ms="12139" started-at="2020-07-31T22:24:38Z" finished-at="2020-07-31T22:24:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginWithValidCredentialsTest()[pri:0, instance:com.testing.GmailTestFile@490ab905]" name="loginWithValidCredentialsTest" duration-ms="1942" started-at="2020-07-31T22:24:50Z" finished-at="2020-07-31T22:24:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentialsTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testing.GmailTestFile@490ab905]" name="afterMethod" is-config="true" duration-ms="797" started-at="2020-07-31T22:24:52Z" finished-at="2020-07-31T22:24:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithValidCredentialsTest status=SUCCESS method=GmailTestFile.loginWithValidCredentialsTest()[pri:0, instance:com.testing.GmailTestFile@490ab905] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.testing.GmailTestFile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
