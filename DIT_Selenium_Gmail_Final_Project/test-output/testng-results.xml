@@ -1,25 +1,187 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" total="6" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14897" started-at="2020-08-01T02:24:38Z" finished-at="2020-08-01T02:24:53Z">
+  <suite name="Default suite" duration-ms="97636" started-at="2020-08-11T18:34:51Z" finished-at="2020-08-11T18:36:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14897" started-at="2020-08-01T02:24:38Z" finished-at="2020-08-01T02:24:53Z">
+    <test name="Default test" duration-ms="97636" started-at="2020-08-11T18:34:51Z" finished-at="2020-08-11T18:36:29Z">
       <class name="com.testing.GmailTestFile">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testing.GmailTestFile@490ab905]" name="beforeMethod" is-config="true" duration-ms="12139" started-at="2020-07-31T22:24:38Z" finished-at="2020-07-31T22:24:50Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testing.GmailTestFile@59494225]" name="beforeMethod" is-config="true" duration-ms="9968" started-at="2020-08-11T14:34:51Z" finished-at="2020-08-11T14:35:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="loginWithValidCredentialsTest()[pri:0, instance:com.testing.GmailTestFile@490ab905]" name="loginWithValidCredentialsTest" duration-ms="1942" started-at="2020-07-31T22:24:50Z" finished-at="2020-07-31T22:24:52Z">
+        <test-method status="PASS" signature="loginWithInValidEmailTest()[pri:1, instance:com.testing.GmailTestFile@59494225]" name="loginWithInValidEmailTest" duration-ms="750" started-at="2020-08-11T14:35:01Z" finished-at="2020-08-11T14:35:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginWithValidCredentialsTest -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testing.GmailTestFile@490ab905]" name="afterMethod" is-config="true" duration-ms="797" started-at="2020-07-31T22:24:52Z" finished-at="2020-07-31T22:24:53Z">
+        </test-method> <!-- loginWithInValidEmailTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testing.GmailTestFile@59494225]" name="afterMethod" is-config="true" duration-ms="707" started-at="2020-08-11T14:35:02Z" finished-at="2020-08-11T14:35:02Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginWithValidCredentialsTest status=SUCCESS method=GmailTestFile.loginWithValidCredentialsTest()[pri:0, instance:com.testing.GmailTestFile@490ab905] output={null}]]]>
+                <![CDATA[[TestResult name=loginWithInValidEmailTest status=SUCCESS method=GmailTestFile.loginWithInValidEmailTest()[pri:1, instance:com.testing.GmailTestFile@59494225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testing.GmailTestFile@59494225]" name="beforeMethod" is-config="true" duration-ms="8513" started-at="2020-08-11T14:35:02Z" finished-at="2020-08-11T14:35:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginWithInValidPasswordTest()[pri:2, instance:com.testing.GmailTestFile@59494225]" name="loginWithInValidPasswordTest" duration-ms="2391" started-at="2020-08-11T14:35:11Z" finished-at="2020-08-11T14:35:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInValidPasswordTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testing.GmailTestFile@59494225]" name="afterMethod" is-config="true" duration-ms="740" started-at="2020-08-11T14:35:13Z" finished-at="2020-08-11T14:35:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithInValidPasswordTest status=SUCCESS method=GmailTestFile.loginWithInValidPasswordTest()[pri:2, instance:com.testing.GmailTestFile@59494225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testing.GmailTestFile@59494225]" name="beforeMethod" is-config="true" duration-ms="8467" started-at="2020-08-11T14:35:14Z" finished-at="2020-08-11T14:35:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginWithValidCredentialsTest()[pri:3, instance:com.testing.GmailTestFile@59494225]" name="loginWithValidCredentialsTest" duration-ms="1908" started-at="2020-08-11T14:35:23Z" finished-at="2020-08-11T14:35:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentialsTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testing.GmailTestFile@59494225]" name="afterMethod" is-config="true" duration-ms="1571" started-at="2020-08-11T14:35:25Z" finished-at="2020-08-11T14:35:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithValidCredentialsTest status=SUCCESS method=GmailTestFile.loginWithValidCredentialsTest()[pri:3, instance:com.testing.GmailTestFile@59494225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testing.GmailTestFile@59494225]" name="beforeMethod" is-config="true" duration-ms="9002" started-at="2020-08-11T14:35:26Z" finished-at="2020-08-11T14:35:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="emailsCountTest()[pri:4, instance:com.testing.GmailTestFile@59494225]" name="emailsCountTest" duration-ms="8310" started-at="2020-08-11T14:35:35Z" finished-at="2020-08-11T14:35:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailsCountTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testing.GmailTestFile@59494225]" name="afterMethod" is-config="true" duration-ms="961" started-at="2020-08-11T14:35:43Z" finished-at="2020-08-11T14:35:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=emailsCountTest status=SUCCESS method=GmailTestFile.emailsCountTest()[pri:4, instance:com.testing.GmailTestFile@59494225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testing.GmailTestFile@59494225]" name="beforeMethod" is-config="true" duration-ms="8678" started-at="2020-08-11T14:35:44Z" finished-at="2020-08-11T14:35:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="movingEmailTest()[pri:5, instance:com.testing.GmailTestFile@59494225]" name="movingEmailTest" duration-ms="11303" started-at="2020-08-11T14:35:53Z" finished-at="2020-08-11T14:36:04Z">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=84.0.4147.105)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'SWAMINARAYAN', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\patel\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54954}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 45ea6360287a55b13aafb03648bc1f81]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=84.0.4147.105)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'SWAMINARAYAN', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\patel\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54954}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 45ea6360287a55b13aafb03648bc1f81
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:160)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy7.getText(Unknown Source)
+	at com.testing.GmailPageFile.emailsCount(GmailPageFile.java:111)
+	at com.testing.GmailTestFile.movingEmailTest(GmailTestFile.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- movingEmailTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testing.GmailTestFile@59494225]" name="afterMethod" is-config="true" duration-ms="938" started-at="2020-08-11T14:36:04Z" finished-at="2020-08-11T14:36:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=movingEmailTest status=FAILURE method=GmailTestFile.movingEmailTest()[pri:5, instance:com.testing.GmailTestFile@59494225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testing.GmailTestFile@59494225]" name="beforeMethod" is-config="true" duration-ms="8495" started-at="2020-08-11T14:36:05Z" finished-at="2020-08-11T14:36:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="readUnreadEmailTest()[pri:6, instance:com.testing.GmailTestFile@59494225]" name="readUnreadEmailTest" duration-ms="13978" started-at="2020-08-11T14:36:14Z" finished-at="2020-08-11T14:36:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readUnreadEmailTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testing.GmailTestFile@59494225]" name="afterMethod" is-config="true" duration-ms="926" started-at="2020-08-11T14:36:28Z" finished-at="2020-08-11T14:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=readUnreadEmailTest status=SUCCESS method=GmailTestFile.readUnreadEmailTest()[pri:6, instance:com.testing.GmailTestFile@59494225] output={null}]]]>
               </value>
             </param>
           </params>

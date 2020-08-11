@@ -6,8 +6,8 @@
       <class name="com.testing.GmailTestFile">
         <methods>
           <include name="beforeMethod"/>
-          <include name="loginWithValidCredentialsTest"/>
           <include name="afterMethod"/>
+          <include name="movingEmailTest"/>
         </methods>
       </class> <!-- com.testing.GmailTestFile -->
     </classes>
